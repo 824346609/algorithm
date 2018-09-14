@@ -1,7 +1,7 @@
 var reverseList = function(head) {
     var list = head;
     var p = null;
-    var temp= null;
+    var temp = null;
 
     while(list !== null) {    
         temp = list.next;
@@ -10,4 +10,4 @@ var reverseList = function(head) {
         list = temp
     }
     return p;
-};
+};  
