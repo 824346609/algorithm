@@ -24,8 +24,6 @@ var intersect = function(nums1, nums2) {
             sum.push(nums1[i]);
             i++;
             j++;
-            
-            
         }
     }
     return sum;

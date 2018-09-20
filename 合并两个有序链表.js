@@ -12,6 +12,7 @@
 var mergeTwoLists = function (l1, l2) {
     var l3 = new ListNode(-1);
     var c3 = l3;
+    
     while (l1 !== null && l2 !== null) {
         if (l1.val <= l2.val) {
             c3.next = l1;
